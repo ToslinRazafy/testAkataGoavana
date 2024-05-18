@@ -7,8 +7,8 @@
         for($i = 1; $i < count($HTML); $i++){
             if("/".$HTML[$i] == $HTML[$j - 1]){
                 $valid = true;
-                $j--;
             }
+            $j--;
         }
         if(empty($html)){
             $valid = true;
