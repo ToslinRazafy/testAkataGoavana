@@ -15,3 +15,5 @@
         }
         return $valid;
     }
+    $html = isValidHTML("<body><div></div></body>");
+    echo $html;
